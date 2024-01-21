@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ********start header********** */
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/party-1.jpg);
+    background-size: cover;
+    background-position: 100%;
+    
+}
+header img{
+    width: 100%;
+    height: 100vh;
+}
+
+.layer{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.605);
+}
+
+
+.Home-title{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color:white;
+    
+
+}
+
+/* **********end header********** */
+
+
+
+
+
+
+/* **********start side nave********** */
+.side-nave{
+width: 150px;
+height: 80%;
+position: absolute;
+background-color: rgba(241, 239, 239, 0.44);
+top: 20%;
+left: 0;
+display: none;
+}
+
+.side-nave li{
+    list-style: none;
+}
+.side-nave a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.side-nave i{
+    position: absolute;
+    top:20px;
+    right: 10px;
+    cursor: pointer;
+}
+.side-nave i{
+    color: white;
+}
+.side-nave i:hover , a:hover{
+    color: chocolate;
+} 
+
+.close-icon i{
+color: chocolate;
+    position: absolute;
+    top: 40%;
+    left: 0%;
+    cursor: pointer;
+}
+.close-icon i:hover{
+    color: white;
+}
+
+/* **********end side nave ********** */
+
+/* **********start sec 1 ********** */
+.Box-one ,.Box-two ,.Box-three , .Box-four{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    
+}
+.text {
+    background-color: chocolate ;
+    cursor: pointer;
+}
+.content ,.content ,.content ,.content{
+display: none;
+
+}
+
+/* **********end sec 1 ********** */
+
+
+/* *********start sec 2 */
+
+ .countdown{
+display: flex;
+justify-content: center;
+align-items: center;
+justify-content: space-around;
+text-align: center;
+
+
+}
+.countdown h2{
+    font-size: 50px;
+    margin-bottom: 20px;
+    
+}
+
+.single-countDown{
+    background-color: chocolate;
+    width: 150px;
+    display: inline-block;
+    padding: 30px 0;
+
+}
+.single-countDown h2{
+    font-size: 36px;
+    line-height: 1;
+    
+ }
+ .single-countDown span{
+    font: 16px;
+    font-style: italic;
+ }
+
+
+
+ /****************** sec 3 **********/
+ .masseg{
+    width: 100%;
+    height: 50%; 
+    margin: auto;
+ }
+
